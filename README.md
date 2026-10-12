@@ -1,56 +1,46 @@
 # GRC Risk Assessment Framework
 
-Risk assessment and evaluation framework for enterprise Governance, Risk, and Compliance.
+Governance, Risk, and Compliance framework for enterprise risk assessment, control mapping, vulnerability correlation, and executive risk dashboards.
 
 ## Features
 
-- Risk identification and categorization
-- Probability and impact scoring
-- Risk matrix visualization
-- Mitigation tracking
-- Kenya DPA compliance integration
+- **Asset Inventory**: System, data, and infrastructure cataloging
+- **Vulnerability Integration**: CVE scoring, threat correlation
+- **Risk Scoring**: Likelihood × Impact calculation
+- **Control Mapping**: Control → Risk mitigation tracking
+- **Risk Heat Maps**: Executive dashboard for board visibility
+- **Remediation Prioritization**: Data-driven investment decisions
+
+## Quick Start
+
+```bash
+git clone https://github.com/Korir555/grc-risk-assessment-framework.git
+cd grc-risk-assessment-framework
+pip install -r requirements.txt
+flask run
+```
+
+Access: http://localhost:5000
 
 ## Risk Assessment Process
 
-1. **Identify Risks** - List potential security threats
-2. **Score Probability** - Likelihood of occurrence (1-5)
-3. **Score Impact** - Severity if it occurs (1-5)
-4. **Calculate Risk Score** - Probability × Impact
-5. **Prioritize** - Focus on highest risks first
-6. **Mitigate** - Implement controls
+1. **Asset Discovery** → 2. **Threat Modeling** → 3. **Vulnerability Mapping** → 4. **Risk Calculation** → 5. **Control Assessment** → 6. **Remediation Planning**
 
-## Risk Categories
+## Technologies
 
-- Technical (vulnerabilities, system failures)
-- Operational (process failures, human error)
-- Compliance (regulatory, audit findings)
-- Financial (loss, fraud)
-- Reputational (brand damage, customer trust)
+Python 3.9+ | Flask | PostgreSQL | Vulnerability Feeds (CVE, NVD)
 
-## Usage
+## Hiring Relevance
 
-```python
-from risk_framework import RiskAssessment
-
-risk = RiskAssessment(
-    name="Data Breach",
-    category="Technical",
-    probability=3,  # Medium
-    impact=5  # Critical
-)
-
-print(f"Risk Score: {risk.calculate_score()}")  # 15/25
-print(f"Risk Level: {risk.risk_level()}")  # High
-```
-
-## Kenya Context
-
-This framework aligns with:
-- Kenya Data Protection Act (PDPA) requirements
-- Central Bank of Kenya (CBK) guidelines
-- Critical Information Infrastructure (CII) mandate
-- ISO 27001/27002 standards
+- Enterprise risk management
+- GRC program leadership
+- Risk quantification and reporting
+- Control framework design
 
 ## Documentation
 
-See `/docs` for detailed risk assessment methodology and examples.
+Full risk methodology and case study: [Case Study](https://korir555.github.io/cybersecurity-portfolio/projects/25-grc-risk-assessment-framework/)
+
+## License
+
+MIT License

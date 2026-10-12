@@ -4,12 +4,12 @@ Governance, Risk, and Compliance framework for enterprise risk assessment, contr
 
 ## Features
 
-- **Asset Inventory**: System, data, and infrastructure cataloging
-- **Vulnerability Integration**: CVE scoring, threat correlation
-- **Risk Scoring**: Likelihood × Impact calculation
-- **Control Mapping**: Control → Risk mitigation tracking
-- **Risk Heat Maps**: Executive dashboard for board visibility
-- **Remediation Prioritization**: Data-driven investment decisions
+- Asset Inventory: System, data, and infrastructure cataloging
+- Vulnerability Integration: CVE scoring, threat correlation
+- Risk Scoring: Likelihood x Impact calculation
+- Control Mapping: Control -> Risk mitigation tracking
+- Risk Heat Maps: Executive dashboard for board visibility
+- Remediation Prioritization: Data-driven investment decisions
 
 ## Quick Start
 
@@ -24,7 +24,12 @@ Access: http://localhost:5000
 
 ## Risk Assessment Process
 
-1. **Asset Discovery** → 2. **Threat Modeling** → 3. **Vulnerability Mapping** → 4. **Risk Calculation** → 5. **Control Assessment** → 6. **Remediation Planning**
+1. Asset Discovery
+2. Threat Modeling
+3. Vulnerability Mapping
+4. Risk Calculation
+5. Control Assessment
+6. Remediation Planning
 
 ## Technologies
 
@@ -39,7 +44,7 @@ Python 3.9+ | Flask | PostgreSQL | Vulnerability Feeds (CVE, NVD)
 
 ## Documentation
 
-Full risk methodology and case study: [Case Study](https://korir555.github.io/cybersecurity-portfolio/projects/25-grc-risk-assessment-framework/)
+Full risk methodology and case study: Case Study
 
 ## License
 
